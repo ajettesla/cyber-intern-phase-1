@@ -58,10 +58,8 @@ To detect new admin user creation or privilege escalation, you can use Splunk qu
 ```spl
 index=security EventCode=4720
 | table _time, ComputerName, Subject_User_Name, Target_User_Name
-| sort -_time
-
-
-
+| sort -_time 
+```
 
 ![image](https://github.com/user-attachments/assets/a1219919-473a-4396-84b9-28e0c0f55fb8)
 
