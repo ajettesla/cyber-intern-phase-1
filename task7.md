@@ -104,3 +104,10 @@ index=powershell source="WinEventLog:Microsoft-Windows-PowerShell/Operational" E
 I have attached an image showing an example Splunk search result detecting the use of `Invoke-WebRequest` in PowerShell logs. This illustrates how PowerShell command activity can be identified and investigated.
 
 
+![Screenshot (23)](https://github.com/user-attachments/assets/200223bd-ccc0-4472-97b6-defd4eeaaa94)
+
+
+![image](https://github.com/user-attachments/assets/a60a77f8-390b-4b2f-b6c0-fc11cfb5fce1)
+
+
+
