@@ -111,7 +111,7 @@ Open Registry Editor (regedit).
 
 Navigate to:
 
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa`
 Right-click on AuditBaseObjects, select Modify, and set the value to 1.
 
 Restart your system.
@@ -119,19 +119,19 @@ Restart your system.
 🔎 How to Verify Registry Events
 Once auditing is enabled:
 
-Open Event Viewer (eventvwr.msc).
+Open Event Viewer `(eventvwr.msc)`.
 
-Navigate to Windows Logs > Security.
+`Navigate to Windows Logs > Security`.
 
 Look for Event ID 4657 (Registry Modification).
 
 If needed, filter for other registry-related events:
 
-EventCode=4656 (Registry access request)
+`EventCode=4656 (Registry access request)`
 
-EventCode=4663 (Registry key accessed)
+`EventCode=4663 (Registry key accessed)`
 
-EventCode=4657 (Registry value modified)
+`EventCode=4657 (Registry value modified)`
 
 
 
