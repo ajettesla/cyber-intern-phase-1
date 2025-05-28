@@ -31,7 +31,7 @@ xml
   <HashAlgorithms>SHA256</HashAlgorithms>
 
   <EventFiltering>
-   ``` <!-- Log all process creations (important for PsExec and WMI execution tracking) -->```
+   ` <!-- Log all process creations (important for PsExec and WMI execution tracking) -->`
     <ProcessCreate onmatch="include">
       <Image condition="contains">powershell.exe</Image>
       <Image condition="contains">cmd.exe</Image>
